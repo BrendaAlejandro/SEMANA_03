@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#EEEEEE">
+
+        <TextView
+            android:id="@+id/idItemUserId"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="User ID"
+            android:textSize="18sp"
+            android:textColor="#FF5733"
+            android:padding="8dp"
+            android:background="#B2EBF2"/>
+
+        <TextView
+            android:id="@+id/idItemName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="Name"
+            android:textSize="18sp"
+            android:textColor="#4CAF50"
+            android:padding="8dp"
+            android:background="#B2EBF2"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/idItemEmail"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="Email"
+        android:textSize="16sp"
+        android:textColor="#2196F3"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="16dp"/>
+
+    <TextView
+        android:id="@+id/idItemPhone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="Phone"
+        android:textSize="16sp"
+        android:textColor="#FFC107"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="16dp"/>
+
+    <TextView
+        android:id="@+id/idItemWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="Website"
+        android:textSize="16sp"
+        android:textColor="#9C27B0"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="16dp"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
